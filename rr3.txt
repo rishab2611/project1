@@ -1,0 +1,14 @@
+diff --git a/rr.txt b/rr.txt
+index 38d53cf..0fad59d 100644
+--- a/rr.txt
++++ b/rr.txt
+@@ -1,5 +1,2 @@
+-rishab parihar
+-hello
+-how
+-there
+-are you
+\ No newline at end of file
++rish 
++sahil
+\ No newline at end of file
