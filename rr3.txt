@@ -8,7 +8,6 @@ index 38d53cf..0fad59d 100644
 -how
 -there
 -are you
-\ No newline at end of file
 +rish 
 +sahil
-\ No newline at end of file
+
