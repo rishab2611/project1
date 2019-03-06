@@ -25,8 +25,7 @@ file.write(str(git_status2))
 file.close()
 #code to store git_status2 in a file
 
-mylist=git_status2
-
+print ("hllo")
     
     
 
