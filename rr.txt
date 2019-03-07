@@ -1,10 +1,2 @@
-<<<<<<< HEAD
-frkiejttv 
-drwefrt
-imji
-=======
-rishab parihar
-pranay
-sahil
-
->>>>>>> rish
+def home():
+  print("WElcome')
