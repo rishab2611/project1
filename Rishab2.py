@@ -4,9 +4,7 @@ from os import path
 print ("------------------------to run git commands--------------------------")
 git_command = ['git', 'init']
 g =['git', 'diff']
-git_command1 = ['git', 'add .']
-git_command2 = ['git', 'diff', 'Head^', 'Head']#it is supposed to create a text file
-repository  = path.dirname('H:/Users/rishab_parihar/Desktop/New folder/')
+git_comm
 
 git_query = Popen(git_command, cwd = repository,stdout=PIPE,stderr=PIPE)
 (git_status,error) = git_query.communicate()
