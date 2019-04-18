@@ -7,9 +7,7 @@ import pause
 logger = Utils().user_path()
 logging.basicConfig(filename=logger, level=logging.DEBUG)
 class Pulls(object):
-    """creating class for open pull time"""
-    config = Utils().get_config_file('config.ini')
-    user_id = config.get('GithubCredential', 'user_id', raw=True)
+    """creating class for open pull time    user_id = config.get('GithubCredential', 'user_id', raw=True)
     password = config.get('GithubCredential', 'password')
     date_format = config.get('Format', 'date_format', raw=True)
     url = config.get('url', 'url')

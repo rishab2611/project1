@@ -14,14 +14,6 @@ logging.basicConfig(filename=logger, level=logging.DEBUG)
 class TestData(object):
     def __init__(self):
         pass
-    config = Utils().get_config_file('config.ini')
-    user_id = config.get('GithubCredential', 'user_id', raw=True)
-    password = config.get('GithubCredential', 'password')
-    date_format = config.get('Format', 'date_format', raw=True)
-    def fetcher(self, response):
-        feature_dict = {}
-        response = json.loads(response)
-        comment_url = response['pull_request']['comments_url']
         repository = Repository()
         pulls = Pulls()
         repos_url = response['pull_request']['head']['repo']['url']

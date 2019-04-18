@@ -3,9 +3,7 @@ index 38d53cf..0fad59d 100644
 --- a/rr.txt
 +++ b/rr.txt
 @@ -1,5 +1,2 @@
--rishab parihar
--hello
--how
+-rishab
 -there
 -are you
 \ No newline at end of file
