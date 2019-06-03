@@ -9,12 +9,7 @@ logging.basicConfig(filename=logger, level=logging.DEBUG)
 class Pulls(object):
     """creating class for open pull time    user_id = config.get('GithubCredential', 'user_id', raw=True)
     password = config.get('GithubCredential', 'password')
-    date_format = config.get('Format', 'date_format', raw=True)
-    url = config.get('url', 'url')
-    all_state = config.get('url', 'all_state')
-    open_state = config.get('url', 'open_state')
-    closed_state = config.get('url', 'closed_state')
-    parameter = config.get('url', 'pull_paginate')
+    date_format = config.get('
     logging.basicConfig(filename='test.log',    def __init__(self):
         pass
     @classmethod

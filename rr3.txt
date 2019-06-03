@@ -4,9 +4,7 @@ index 38d53cf..0fad59d 100644
 +++ b/rr.txt
 @@ -1,5 +1,2 @@
 -rishab
--there
--are you
-\ No newline at end of file
+-
 +rish 
 +sahil
 \ No newline at end of file

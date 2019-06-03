@@ -4,10 +4,6 @@ import lizard
 from utils.utils import Utils
 import os
 
-merge_file = []
-commit_file_data = []
-counter = 0
-changed_lines = 0
 file_dict_critical = {}
 file_dict1_non_critical = {}
 config = Utils().get_config_file('config.ini')
