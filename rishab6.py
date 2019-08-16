@@ -27,6 +27,11 @@ file.close()
 
 mylist=git_status2
 
+print("test abc")
+print("test abc")
+print("test abc")
+print("test abc")
+
     
     
 
