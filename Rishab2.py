@@ -15,6 +15,7 @@ print(git_status)
 git_query1 = Popen(git_command1, cwd = repository,stdout=PIPE,stderr=PIPE)
 (git_status1,error1) = git_query1.communicate()
 
+
 git_query2 = Popen(git_command2, cwd = repository,stdout=PIPE,stderr=PIPE)
 (git_status2,error2) = git_query2.communicate()
 print(git_status2)
