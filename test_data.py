@@ -37,12 +37,11 @@ class TestData(object):
         parameter_dict['feature_dict'] = feature_dict
         parameter_dict['comment_url'] = comment_url
         return parameter_dict
-    
     def test_feeder(self, feature_dict, model):
         #model = MLModel()
         state = None
         column_name = []
-        print(feature_dict)
+        print("feature dict",feature_dict)
         for i in feature_dict:
             column_name.append(i)
         data_frame = pd.DataFrame(columns=column_name,index=[1])
