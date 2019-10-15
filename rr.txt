@@ -1,2 +1,2 @@
 def home():
-  print("WElcome')
+  print("wElcome')
